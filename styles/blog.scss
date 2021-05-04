@@ -1,0 +1,15 @@
+.blog-masonry {
+    columns: 1;
+}
+
+@media (min-width: 600px) {
+    .blog-masonry {
+        columns: 2;
+    }
+}
+
+@media (min-width: 1000px) {
+    .blog-masonry {
+        columns: 3;
+    }
+}
